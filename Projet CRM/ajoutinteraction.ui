@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ajoutInteraction</class>
+ <widget class="QDialog" name="ajoutInteraction">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>426</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>764</width>
+    <height>426</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>764</width>
+    <height>426</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="titre">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>5</y>
+     <width>761</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Nouvelle interaction</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="champTitreInte">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>50</y>
+     <width>543</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>100</number>
+   </property>
+   <property name="placeholderText">
+    <string>Saisir le titre</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelTitreInteraction">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Titre de l'interaction :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boutonValider">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>370</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Valider</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boutonRetour">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>370</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Retour</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelExplications1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>355</y>
+     <width>451</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Séparez 2 lignes de l'interaction avec un retour à la ligne</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelExplications2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>375</y>
+     <width>381</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>@todo : l'action sera ajoutée dans la liste des tâches</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelExplications3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>395</y>
+     <width>441</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>@date : ajoute une date de réalisation (par défaut : date actuelle)</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="champContenuInte">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>713</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="maximumBlockCount">
+    <number>8</number>
+   </property>
+   <property name="placeholderText">
+    <string>Saisir le contenu</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
